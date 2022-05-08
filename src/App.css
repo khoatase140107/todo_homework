@@ -1,0 +1,157 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  background-color: red;
+}
+
+.header_customerName , .headerLogo{
+  margin: 0px 50px;
+}
+
+.headerLogo{
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.header_customerName{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130px;
+  color: white;
+}
+
+.header_customerName:hover{
+  color: black;
+}
+
+.listPhone{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Phone{
+  border: 1px solid red;
+  padding: 30px;
+
+}
+
+.phonebtn{
+  padding: 10px;
+  background-color: #2BAD46;
+  border: 1px solid #2BAD46;
+  color: white;
+  font-weight: 600;
+}
+
+.detailPhone{
+  margin-top: 20px;
+}
+
+
+.inputSearch{
+  padding: 8px 10px;
+  width: 300px;
+  margin-top: 10px;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+
+
+.btnSearch{
+  padding: 8px 10px;
+  margin-left: 10px;
+  background-color: white;
+  border: 3px solid #008CBA;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-item{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.myTodoList{
+  height: 100vh;
+  
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listTask{
+  border: 1px solid #008CBA;
+  padding: 20px 40px;
+  
+}
+
+.listToDo{
+  margin: 20px 0;
+  
+}
+
+.btnDelete{
+  padding: 0px 10px;
+  background-color: white;
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .todo{
+  margin-right: 10px;
+} */
